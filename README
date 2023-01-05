@@ -1,0 +1,8 @@
+Command to run (make run) has 2 optional arguments: SIDE and KEY.
+SIDE: 1 == right shift, 0 == left shift, default=1
+KEY: positive integer, default=1
+Example:
+    >make run SIDE=0 KEY=3
+    Place for your text:
+    >abcde
+    Cypher: xyzab
